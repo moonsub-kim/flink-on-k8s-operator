@@ -12,6 +12,7 @@ following structure. The v1beta1 version of the API definition is implemented [h
 
 | Key | Type | Optional | Description
 |-----|------|----------|-------------
+|     |      |          | <img width=500/>
 | `.spec.flinkVersion` | string | X | The version of Flink to be managed. This version must match the version in the image.
 | `.spec.image` | object | X | Flink image for JobManager, TaskManager and job containers.
 | `.spec.image.name` | string | X | Image name.
